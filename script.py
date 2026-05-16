@@ -1,8 +1,7 @@
 def calcular_promedio(notas):
-    """
-    Recibe una lista de números (notas) y devuelve el promedio.
-    Si la lista está vacía, devuelve 0 para evitar errores.
-    """
+    "Recibe una lista de números (notas) y devuelve el promedio."
+    "Si la lista está vacía, devuelve 0 para evitar errores."
+    
     if not notas:  # Verifica si la lista está vacía
         return 0
     
@@ -14,9 +13,8 @@ def calcular_promedio(notas):
 
 # APORTE AGUS: Función para obtener estadísticas adicionales 
 def obtener_extremos(notas):
-    """
-    Identifica la nota mayor y la menor de la lista utilizando max() y min().
-    """
+    
+    "Identifica la nota mayor y la menor de la lista utilizando max() y min()."
     if not notas:
         return None, None
     
@@ -44,6 +42,6 @@ if __name__ == "__main__":
     
     # Condición de aprobación
     if resultado_promedio >= 6:
-        print("¡Estás aprobado! 🎉")
+        print("¡Estás aprobado! ")
     else:
-        print("A recuperar... 📚")
+        print("A recuperar... ")
