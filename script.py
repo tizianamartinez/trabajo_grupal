@@ -1,3 +1,8 @@
+
+def saludo_final(nombre):
+    mensaje = "¡Hola " + nombre + "! Esta es la parte de Tiziana."
+    return mensaje
+
 def calcular_promedio(notas):
     """
     Recibe una lista de números (notas) y devuelve el promedio.
@@ -29,3 +34,4 @@ if __name__ == "__main__":
         print("¡Estás aprobado! 🎉")
     else:
         print("A recuperar... 📚")
+ 
